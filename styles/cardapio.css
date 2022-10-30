@@ -44,7 +44,7 @@ footer {
     padding-top: 400px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    margin-top: 3200px;
+    margin-top: 80px;
 }
 
 .logo{
@@ -75,14 +75,14 @@ footer {
     position: absolute;
     margin-top: 5px;    
     text-align: center;
-    margin-left: 280px;
- /* position: relative; */
+    /* margin-left: 150px; */
+ position: relative;
 }
 
 .ingredient{
     margin-top: 5px;    
       text-align: center;
-  margin-left: 110px;
+  /* margin-left: 100px; */
 }
 
 h2{
