@@ -45,7 +45,7 @@ footer {
     padding-top: 400px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    margin-top: 890px;
+    margin-top: 900px;
 }
 
 .logo{
@@ -57,7 +57,9 @@ footer {
     justify-content: center;
     font-size: 1.2rem;
     position: absolute;
-    gap: 50px;
+    gap: 80px;
+    margin-top: 80px;
+    margin-left: 300px;
 }
 
 .img{
@@ -91,12 +93,16 @@ h2{
 h3{
     font-size: 35px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .service-description{
     display: flex;
-    margin-top: 5px;
-    height: 10em;
+    margin-top: 10px;
+    height: 90px;
     justify-content: center;
 }
+
+li {
+    list-style-type: none;
+  }

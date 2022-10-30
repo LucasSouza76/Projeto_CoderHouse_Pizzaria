@@ -12,8 +12,7 @@ html{
 body {
     background-color: #ffffff;
     color: #fdfffd;
-    height: 600%;
-    width: 100%;
+    height: 400%;
 }
 
 nav {
@@ -45,7 +44,7 @@ footer {
     padding-top: 400px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    margin-top: 450px;
+    margin-top: 3200px;
 }
 
 .logo{
@@ -74,6 +73,16 @@ footer {
 .recipes{
     font-size: 1.2rem;
     position: absolute;
+    margin-top: 5px;    
+    text-align: center;
+    margin-left: 280px;
+ /* position: relative; */
+}
+
+.ingredient{
+    margin-top: 5px;    
+      text-align: center;
+  margin-left: 110px;
 }
 
 h2{
@@ -87,11 +96,10 @@ h2{
 h3{
     font-size: 35px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
+    position: relative;
    }
 
-.ingredient{
-        margin-top: 5px;    
-        /* height: 10em; */
-      text-align: center;
-}
+li {
+    list-style-type: none;
+  }
