@@ -1,0 +1,107 @@
+/* CSS página SOBRE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html{
+    height: 100%;
+ }
+
+body {
+    background-color: #ffffff;
+    color: #fdfffd;
+    height: 200%;
+}
+
+nav {
+    position:absolute;
+    top: 54px;
+    right: 15px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    color: #121312;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    color: inherit;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    color: #08d812
+}
+
+footer {
+    text-align: center;
+    padding-top: 400px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 410px;
+}
+
+.logo{
+    background: #fdfffd;
+}
+
+.title-about {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+.container-about{
+    position:relative;
+    font-size: 1.2rem;
+}
+
+.text-about{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    
+
+}
+
+.img{
+    background-image: url(../images/pizza\ pedido.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+.text-about{
+        margin-top: 150px;    
+        height: 10em;
+      text-align: center;
+}
